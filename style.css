@@ -1,0 +1,231 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(195,144,52);
+    background: linear-gradient(90deg, rgba(195,144,52,1) 25%, rgba(83,167,59,1) 76%);
+}
+
+.container{
+    height: 600px;
+    width: 1200px;
+    /* background-color: black; */
+}
+
+.up{
+    height: 300px;
+    width: 1200px;
+    /* background-color: green; */
+    display: flex;
+    padding-top: 40px;
+    position: relative;
+    
+}
+
+.down{
+    height: 300px;
+    width: 1200px;
+    /* background-color: red; */
+    padding-top: 40px;
+    position: relative;
+}
+
+.box1{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(47, 47, 47);
+    margin-left: 40px;
+    border-radius: 10px;
+    
+}
+
+.box2{
+    height: 200px;
+    width: 300px;
+    background-color: gold;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.box3{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(195, 115, 129);
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.box4{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(18, 133, 133);
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(47, 47, 47);
+    color: rgb(47, 47, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.box1:hover > .icon{
+    height: 30px;
+    width: 30px;
+    transform: translate(-30px ,-30px);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.icon:hover {
+    color: rgb(47, 47, 47);
+    background-color: transparent;
+}
+
+.box4 > div{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(18, 133, 133);
+    color: rgb(18, 133, 133);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.box4 > div:hover {
+    color: rgb(18, 133, 133);
+    background-color: transparent;
+}
+
+
+.box4:hover > .box4Icon1{
+    height: 30px;
+    width: 30px;
+    transform: translate(10px ,-35px);
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+
+.box4:hover > .box4Icon2{
+    height: 30px;
+    width: 30px;
+    transform: translate(-27px ,-30px);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.box4:hover > .box4Icon3{
+    height: 30px;
+    width: 30px;
+    transform: translate(-33px ,4px);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.box4:hover > .box4Icon4{
+    height: 30px;
+    width: 30px;
+    transform: translate(-33px ,40px);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.box2 > div {
+    height: 30px;
+    width: 30px;
+    background-color: gold;
+    color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    transition: 0.3s;
+}
+
+
+.box2 > div:hover {
+    color: gold;
+    background-color: transparent;
+}
+
+.box2:hover > .box2Icon1{
+    height: 30px;
+    width: 30px;
+    transform: translate(3px ,-35px);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.box2:hover > .box2Icon2{
+    height: 30px;
+    width: 30px;
+    transform: translate(-35px ,3px);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.box3 > div {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(195, 115, 129);
+    color: rgb(195, 115, 129);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    transition: 0.3s;
+}
+
+
+.box3 > div:hover {
+    color: rgb(195, 115, 129);
+    background-color: transparent;
+}
+
+.box3:hover > .box3Icon1{
+    height: 30px;
+    width: 30px;
+    transform: translate(10px ,-35px);
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+
+.box3:hover > .box3Icon2{
+    height: 30px;
+    width: 30px;
+    transform: translate(-27px ,-30px);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.box3:hover > .box3Icon3{
+    height: 30px;
+    width: 30px;
+    transform: translate(-33px ,4px);
+    color: #fff;
+    transition: 0.3s;
+}
